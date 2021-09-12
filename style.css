@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 20px;
+  color: #6d71df;
+}
+#table_container {
+  /* padding: 0 400px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.input_container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  display: block;
+  margin-top: 30px;
+  width: 600px;
+  height: 40px;
+}
+#No_student {
+  display: flex;
+  justify-content: center;
+}
+#SubmitButton {
+  margin-top: 20px;
+  width: 60px;
+  height: 40px;
+  border: none;
+  background-color: #6d71df;
+  cursor: pointer;
+}
+#Editbutton {
+  margin-top: 20px;
+  width: 60px;
+  height: 40px;
+  border: none;
+  background-color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
