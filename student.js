@@ -14,20 +14,6 @@ if (StudentList.length === 0) {
   Nostudent.appendChild(h3);
 }
 
-// if ((document.readyState = 'loading')) {
-//   document.addEventListener('DOMContentLoaded', ready);
-// } else {
-//   ready();
-// }
-// function ready() {
-//   let EditStudent = document.getElementsByClassName('editStudent');
-
-//   for (let index = 0; index < EditStudent.length; index++) {
-//     EditStudent[index].addEventListener('click', EditStudentList);
-//     console.log(index);
-//   }
-// }
-
 function Validationform() {
   // Validate
   let Error_Code = document.getElementById('Error_Code');
@@ -86,21 +72,8 @@ function Validationform() {
     };
   }
 }
-// if ((document.readyState = 'loading')) {
-//   document.addEventListener('DOMContentLoaded', AddStudent);
-// } else {
-//   AddStudent();
-// }
+
 function Table() {
-  // const TbodyTable = document.getElementById('tbody');
-
-  // const item = StudentList[StudentList.length - 1];
-
-  // TbodyTable.innerHTML += `<tr><td class="id">${StudentList.length}</td><td class="Code">${item.Code}</td><td class="Name">${item.Name}</td><td class="Address">${item.Address}</td>
-  // <td class="Phone">${item.Phone}</td>
-  // <td><button class="editStudent" onclick="EditUser()">Edit</button></td>
-  // <td><button class="deleteStudent">Delete</button></td>
-  // </tr>`;
   const Table = document.getElementById('table');
 
   let TableHead = `<thead>
@@ -142,18 +115,6 @@ function AddStudent(event) {
     if (ExistedStudent) {
       alert('Code student already existed');
     } else {
-      // let s =
-      //   new Date().getTime().toString(16) +
-      //   Math.random().toString(16).substring(2) +
-      //   '0'.repeat(16);
-      // let uuid =
-      //   s.substr(0, 8) +
-      //   '-' +
-      //   s.substr(8, 4) +
-      //   '-4000-8' +
-      //   s.substr(12, 3) +
-      //   '-' +
-      //   s.substr(15, 12);
       let id = 0;
 
       StudentList.push({
