@@ -187,3 +187,6 @@ let myArray = [
 console.log(objIndex);
 console.log(myArray[objIndex]);
 console.log(myArray[0]);
+
+
+THang cac di choi net
